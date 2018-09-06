@@ -90,6 +90,9 @@ getwd() #Get working directory
 wheat <- read.table("Wheat_91.txt", header=T, sep=" ")
  
 wheat
+
+fix(wheat)
+
 print(wheat)
 head(wheat) #View top 6 lines of data
 head(wheat, n=10) # View top 10 lines of data
