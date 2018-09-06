@@ -1,0 +1,150 @@
+Introduction to R
+========================================================
+author: Rodrigo R Amadeu
+date: Sep 11th 2018
+autosize: true
+AGR5266 - Field Plot Techniques
+
+
+========================================================
+![Rlogo](figures/Rlogo.png)
+
+[Top 10 Programming Languages 2018](https://spectrum.ieee.org/ns/IEEE_TPL_2018/index/2018/1/1/1/1/1/50/1/50/1/50/1/30/1/30/1/30/1/20/1/20/1/5/1/5/1/20/1/100/)
+
+Freely available language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques. It's GNU!
+
+========================================================
+![GNU](figures/gnu_linux.png)
+
+**GNU Philosophy**
++ to run the program
++ to study and change the program in source code form
++ to redistribute exact copies
++ to distribute modified versions
+
+R Overview
+========================================================
++ Data Science/Statistics
++ Modeling
++ Graphics
++ Programming language
++ Free
++ Open Source
++ Extensible
++ Apps
++ Repeatability!
++ Widely used in Life Sciences
+
+
+R Theory
+========================================================
+From Ihaca [Speech](https://www.stat.auckland.ac.nz/~ihaka/downloads/JSM-2010.pdf):
+
+R provides An interactive, extensible, vectorised language with a large run-time environment
+which provides a good deal of statistical functionality and good graphics capabilities.
+It comes with the the freedom to inspect, modify and redistribute the source code.
+Extensive “third-party solutions” are available through the CRAN websites. User support
+is available through community mechanisms.
+
+Open R
+
+Interfaces: RStudio
+========================================================
+[Different interfaces](goo.gl/oqKLnE)
+
+![RStudio](figures/Rstudio.png)
+
+Open RStudio
+
+Practice
+========================================================
+
+
+From here to where?
+========================================================
+* Report (Rmd) on RStudio
+* https://rmarkdown.rstudio.com/gallery.html
+
+From here to where?
+========================================================
+`pres.Rmd`
+
+More about R? Tutorials
+========================================================
+* https://www.coursera.org/learn/r-programming
+
+* https://www.datacamp.com/courses/free-introduction-to-r
+
+* http://tryr.codeschool.com/
+
+* http://swirlstats.com/
+
+More about R? Tutorials
+========================================================
+**Old school**
+
+* [Amazon Books](https://goo.gl/sTmyPe)
+
+* https://cran.r-project.org/doc/contrib/Verzani-SimpleR.pdf
+
+* https://cran.r-project.org/doc/manuals/R-intro.pdf
+
+* [Dr. Peng Books](https://leanpub.com/u/rdpeng) (pay as much as you want and my personal preference)
+
+Debugging Code
+========================================================
+
+* http://stackoverflow.com/
+
+* http://rseek.org/
+
+* [Google!](https://www.google.com.br/?gfe_rd=cr&ei=s-gYWKeZGNHV8wfOzZHwCA#q=R+Cran)
+
+
+Motivational - From here to where? 
+========================================================
+* Graphics
+
+[Basic + ggplot2](http://www.r-graph-gallery.com/)
+
+[Course](https://rramadeu.github.io/2016/07/07/Graphics-Course/)
+
+[RCircos](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3765848/)
+
+
+From here to where? 
+========================================================
+* Apps
+
+* https://plot.ly/r/3d-surface-plots/
+
+* http://shinyapps.stat.ubc.ca/r-graph-catalog/
+
+* http://rosetta.ahmedmoustafa.io/drift/
+
+
+Advanced R
+========================================================
+* Dates? _lubridate_
+
+* http://vita.had.co.nz/papers/tidy-data.pdf
+
+* http://tidyverse.org/
+
+* https://www.rstudio.com/resources/webinars/working-with-big-data-in-r/
+
+* https://www.coursera.org/learn/advanced-r
+
+Packages
+========================================================
+* 1x routine -> ok, just comment it
+
+* 2x routine -> wrap it in a function
+
+* 2+ routine -> wrap them in a package
+
+* https://support.rstudio.com/hc/en-us/articles/200486488-Developing-Packages-with-RStudio
+
+* http://kbroman.org/pkg_primer/
+
+
