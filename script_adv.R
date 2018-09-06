@@ -357,7 +357,8 @@ boxplot(x=mtcars$mpg, main="Boxplot of mpg", xlab="mpg")
 ## Boxplot by cylindrade
 boxplot(mtcars$mpg ~ mtcars$cyl, main="Boxplot of mpg", xlab="mpg")
 
-
+## Multiple Scatter Plots
+pairs(mtcars)
 
 ## Simulating data
 #http://www.stat.umn.edu/geyer/old/5101/rlook.html
