@@ -27,7 +27,7 @@ setwd("?") ##fill with your path to archives
 ## RStudio: Session -> Set Working Directory -> ...
 ## Linux =/= Windows =/= Mac
 
-
+## R AS CALCULATOR
 ## Sum
 3+3 #I can comment or annotate my scripts by writing after the # sign
 
@@ -80,8 +80,7 @@ var(dice)
 mean(letters)
 
 
-##################### INPUT & OUTPUT ######################
-
+## DATA INPUT & OUTPUT
 ## Setting working directory
 setwd("~/Desktop/RLab") #Can be done by going to Session > Set Working Directory > Choose Directory
 getwd() #Get working directory
@@ -104,7 +103,6 @@ str(wheat) #find the structure of data
 
 ## Subsetting
 ## subsetting is obtained by [row,column]
-
 ## First value in leafdata, row 1, column 1
 wheat[1,1]
 
@@ -131,7 +129,7 @@ wheat[,3]
 wheat[,2:3]
 
 
-#### Addressing columns by name ######
+## Addressing columns by name
 #columns can be addressed by name, with either $ or square brackets wheat[,'variety']
 print(wheat$variety)
 wheat[,'variety']
@@ -167,14 +165,14 @@ index_thr25 <- which(wheat$yield > 25)
 wheath_thr25 <- wheat[index_thr25,]
 
 
+## Analysis of Variance
+model <- aov(yield~variety,data=wheat)
+anova(model)
+
 #Installing packages
 #install.packages("agricolae") #this needs to be done only once
 
 #installed package can be called by using library
 library(agricolae)
-
-## Analysis of Variance
-model <- aov(yield~variety,data=wheat)
-anova(model)
 hsd_output <- HSD.test(model, trt="variety", alpha=0.05)
 print(hsd_output)
