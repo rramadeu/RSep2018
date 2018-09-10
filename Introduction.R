@@ -2,7 +2,7 @@
 ## INTRODUCTION TO R SOFTWARE       ##
 ## AGR 5266C: Field Plot Techniques ##
 ## FALL 2018                        ##
-## rramadeu at ufl.com              ##  
+## rramadeu at ufl dot edu          ##  
 ######################################
 
 ## Before Start
@@ -59,9 +59,9 @@ log(3)
 
 ## CREATING OBJECTS
 ## Object classes
-x <- 1
-y <- "treatment_A"
-z <- 1<0
+x = 1
+y = "treatment_A"
+z = 1<0
 
 class(x)
 class(y)
@@ -150,9 +150,9 @@ plot(wheat$yield,wheat$unit)
 boxplot(wheat$yield~wheat$variety)
 
 ##LOGIC OPERATIONS
-index_A <- which(wheat$variety=="A")
+index_A = which(wheat$variety=="A")
 
-wheat_A <- wheat[index_A,]
+wheat_A = wheat[index_A,]
 
 View(wheat_A)
 dim(wheat_A)
